@@ -1,0 +1,42 @@
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-size{
+  height: 100px;
+  width: 100px;
+}
+
+.top-margin{
+  margin-top: 5%;
+}
+
+.bord{
+  height:50vh;
+  width: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border-top{
+  border-top-style: solid;
+}
+
+.border-bottom{
+  border-bottom-style: solid;
+}
+
+.border-left{
+  border-left-style: solid;
+}
+
+.border-right{
+  border-right-style: solid;
+}

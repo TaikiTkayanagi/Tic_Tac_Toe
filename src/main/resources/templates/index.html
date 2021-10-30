@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/JS/Socket.js"></script>
+    <script src="/JS/Board.js"></script>
+    <script src="/JS/View.js"></script>
+  </head>
+
+  <body style="background-color: black;">
+    <header class="container">
+      <h1 class="text-white">まる＊ばつGAME</h1>
+    </header>
+    <div class="container top-margin">
+      <div class="bord" id="board-area">
+
+        <div id="top-left-block" class="container col-4 border-bottom border-right ">
+        </div>
+        <div id="top-center-block" class="container col-4 border-bottom border-left border-right">
+        </div>
+        <div id="top-right-block" class="container col-4 border-left border-bottom">
+        </div>
+          <div id="middle-left-block" class="container col-4 border-top border-right border-bottom">
+        </div>
+        <div id="middle-center-block" class="container col-4 border-top border-left border-bottom border-bottom">
+        </div>
+        <div id="middle-right-block" class="container col-4 border-top border-left border-bottom">
+        </div>
+        <div id="bottom-left-block" class="container col-4 border-top border-right">
+        </div>
+        <div id="bottom-center-block" class="container col-4 border-top border-left border-right">
+        </div>
+        <div id="bottom-right-block" class="container col-4 border-top border-left">
+        </div>
+        <div id="add1-left-block">
+        </div>
+        <div id="add1-center-block">
+        </div>
+        <div id="add1-right-block">
+        </div>
+        <div id="add2-left-block">
+        </div>
+        <div id="add2-center-block">
+        </div>
+        <div id="add2-right-block">
+        </div>
+        <div id="add3-left-block">
+        </div>
+        <div id="add3-center-block">
+        </div>
+        <div id="add3-right-block">
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center" id="winner">
+      <h1 id="winner-player" class="text-light"></h1>
+    </div>
+  </body>
+</html>
